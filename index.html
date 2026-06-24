@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>NEWNOU Jewelry | newnou.com</title>
+    <meta name="description" content="NEWNOU is a modern jewelry boutique for necklaces, earrings, rings, bracelets, gifts, and everyday styling.">
+    <link rel="canonical" href="https://newnou.com/">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="NEWNOU home">
+        <span class="brand-mark">N</span>
+        <span>NEWNOU</span>
+      </a>
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a href="#shop">Collections</a>
+        <a href="#materials">Materials</a>
+        <a href="#gift-guide">Gifts</a>
+        <a href="#atelier">Craft</a>
+        <a href="#journal">Journal</a>
+      </nav>
+      <div class="header-actions">
+        <button class="icon-button" type="button" aria-label="Search">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-3.2-3.2"></path></svg>
+        </button>
+        <button class="cart-button" type="button" aria-label="Shopping bag">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 8h12l-1 12H7L6 8Z"></path><path d="M9 8a3 3 0 0 1 6 0"></path></svg>
+          <span id="cartCount">0</span>
+        </button>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-label="NEWNOU jewelry">
+        <img class="hero-image" src="assets/jewelry-hero.png" alt="Gold necklace, pearl earrings, rings, and bracelet arranged on stone and silk">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+          <p class="eyebrow">Summer 2026</p>
+          <h1>NEWNOU</h1>
+          <p class="hero-copy">Fine jewelry made for everyday light. Clean lines, luminous details, and a quiet sense of occasion.</p>
+          <div class="hero-actions">
+            <a class="primary-link" href="#shop">Shop Collection</a>
+            <a class="secondary-link" href="#atelier">Explore Craft</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="collection-strip" aria-label="Featured categories">
+        <a href="#shop" data-jump-filter="all">All</a>
+        <a href="#shop" data-jump-filter="necklace">Necklaces</a>
+        <a href="#shop" data-jump-filter="earring">Earrings</a>
+        <a href="#shop" data-jump-filter="ring">Rings</a>
+        <a href="#shop" data-jump-filter="bracelet">Bracelets</a>
+      </section>
+
+      <section class="shop-section" id="shop">
+        <div class="section-heading">
+          <p class="eyebrow">Shop</p>
+          <h2>Featured Pieces</h2>
+          <p>Jewelry designed to move from morning meetings to evening plans without missing a beat.</p>
+        </div>
+        <div class="filters" role="list" aria-label="Product filters">
+          <button class="filter is-active" type="button" data-filter="all">All</button>
+          <button class="filter" type="button" data-filter="necklace">Necklaces</button>
+          <button class="filter" type="button" data-filter="earring">Earrings</button>
+          <button class="filter" type="button" data-filter="ring">Rings</button>
+          <button class="filter" type="button" data-filter="bracelet">Bracelets</button>
+        </div>
+        <div class="product-grid" id="productGrid"></div>
+      </section>
+
+      <section class="editorial-band" aria-label="Best sellers">
+        <div class="section-heading">
+          <p class="eyebrow">Best Sellers</p>
+          <h2>Pieces Customers Reach For First</h2>
+        </div>
+        <div class="feature-grid">
+          <article>
+            <span>01</span>
+            <h3>Pearl Essentials</h3>
+            <p>Soft luster, clean silhouettes, and easy proportions for daily wear.</p>
+          </article>
+          <article>
+            <span>02</span>
+            <h3>Golden Layers</h3>
+            <p>Adjustable chains that sit well with open collars, tees, and silk shirts.</p>
+          </article>
+          <article>
+            <span>03</span>
+            <h3>Gemstone Accents</h3>
+            <p>Small emerald and blush stones for color without feeling loud.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="materials" id="materials">
+        <div class="section-heading">
+          <p class="eyebrow">Materials</p>
+          <h2>Made for Repeat Wear</h2>
+          <p>NEWNOU pieces are designed around comfort, gentle shine, and easy care.</p>
+        </div>
+        <div class="materials-grid">
+          <article>
+            <h3>Gold-Tone Finish</h3>
+            <p>A warm 18K gold-tone surface gives each piece a polished look while keeping the design lightweight.</p>
+          </article>
+          <article>
+            <h3>Pearl Detail</h3>
+            <p>Rounded pearl accents add softness and dimension, especially against minimal everyday styling.</p>
+          </article>
+          <article>
+            <h3>Skin-Friendly Base</h3>
+            <p>Low-sensitivity metal choices and smooth edges help the pieces sit comfortably through the day.</p>
+          </article>
+          <article>
+            <h3>Adjustable Fit</h3>
+            <p>Extenders, open shapes, and flexible sizing make gifting simpler and styling more personal.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="gift-guide" id="gift-guide">
+        <div>
+          <p class="eyebrow">Gift Guide</p>
+          <h2>Small Boxes, Good Timing</h2>
+          <p>Choose a signature piece by mood, milestone, or the way they already dress.</p>
+        </div>
+        <div class="gift-list">
+          <article>
+            <strong>Under $50</strong>
+            <span>Pearl studs, fine rings, and everyday bracelets.</span>
+          </article>
+          <article>
+            <strong>Birthday</strong>
+            <span>A gemstone ring or crescent pendant with a little color.</span>
+          </article>
+          <article>
+            <strong>Bridal Party</strong>
+            <span>Matching pearl accents that still feel personal.</span>
+          </article>
+        </div>
+      </section>
+
+      <section class="atelier" id="atelier">
+        <div class="atelier-copy">
+          <p class="eyebrow">Atelier</p>
+          <h2>Details That Hold the Light</h2>
+          <p>Each piece is built around skin-friendly finishes, low-sensitivity materials, and adjustable structures that keep shine and comfort in balance.</p>
+        </div>
+        <div class="atelier-stats" aria-label="Craft details">
+          <div><strong>18K</strong><span>Gold-tone plating</span></div>
+          <div><strong>72h</strong><span>Oxidation testing</span></div>
+          <div><strong>3</strong><span>Adjustable lengths</span></div>
+        </div>
+      </section>
+
+      <section class="journal" id="journal">
+        <div class="section-heading">
+          <p class="eyebrow">Journal</p>
+          <h2>Styling Notes</h2>
+        </div>
+        <div class="journal-grid">
+          <article>
+            <span>01</span>
+            <h3>Layer Fine Chains</h3>
+            <p>Mix different lengths to frame the collarbone and create a soft, polished line.</p>
+          </article>
+          <article>
+            <span>02</span>
+            <h3>Wear Pearls Casually</h3>
+            <p>Pair pearl accents with knitwear, shirting, or a simple tank for a lighter mood.</p>
+          </article>
+          <article>
+            <span>03</span>
+            <h3>Build a Ring Stack</h3>
+            <p>Start with one statement ring, then add slim bands for contrast and rhythm.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="reviews" aria-label="Customer reviews">
+        <div class="section-heading">
+          <p class="eyebrow">Reviews</p>
+          <h2>Quietly Loved</h2>
+        </div>
+        <div class="review-grid">
+          <figure>
+            <blockquote>"The necklace feels delicate but not fragile. It layers beautifully with pieces I already own."</blockquote>
+            <figcaption>Maya R.</figcaption>
+          </figure>
+          <figure>
+            <blockquote>"I bought the pearl studs as a gift and ended up ordering a pair for myself."</blockquote>
+            <figcaption>Elena P.</figcaption>
+          </figure>
+          <figure>
+            <blockquote>"The adjustable bracelet is exactly what I needed. Simple, bright, and easy to wear."</blockquote>
+            <figcaption>Claire W.</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="faq" aria-label="Frequently asked questions">
+        <div class="section-heading">
+          <p class="eyebrow">Care</p>
+          <h2>Good to Know</h2>
+        </div>
+        <div class="faq-list">
+          <details>
+            <summary>How should I care for NEWNOU jewelry?</summary>
+            <p>Keep pieces dry when possible, wipe gently after wear, and store them separately in a soft pouch.</p>
+          </details>
+          <details>
+            <summary>Are the pieces adjustable?</summary>
+            <p>Many necklaces and bracelets include extender chains, and selected rings are designed with flexible sizing.</p>
+          </details>
+          <details>
+            <summary>Is NEWNOU good for gifting?</summary>
+            <p>Yes. The collection focuses on easy-to-style silhouettes, accessible pricing, and pieces that work across occasions.</p>
+          </details>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div>
+        <strong>NEWNOU</strong>
+        <p>newnou.com - Jewelry, gifts, and everyday inspiration.</p>
+      </div>
+      <form class="newsletter">
+        <label for="email">New arrival alerts</label>
+        <div>
+          <input id="email" type="email" placeholder="email@example.com">
+          <button type="submit">Subscribe</button>
+        </div>
+      </form>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
